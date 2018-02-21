@@ -1,0 +1,1 @@
+Webpack loader that transform angular inline templates from pug into html

@@ -1,0 +1,23 @@
+{
+  "name": "ng-pug-inline-template-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader that transform angular inline templates from pug into html ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pug",
+    "angularjs",
+    "inline",
+    "template",
+    "webpack",
+    "html"
+  ],
+  "author": "Håkan Fahlstedt <hf@fahlsoft.se>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

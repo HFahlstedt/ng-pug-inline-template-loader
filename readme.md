@@ -3,6 +3,8 @@ Loder for webpack to make it possible to use [pug](https://pugjs.org) in angular
 
 It is meant to be used as a precompile step before transpiling Typescript into JavaScript. It has, currently, only been tested with webpack 3.
 
+If the Typescript file doesn't include a template or the template starts with '<' (indicating that the template is in html) the loader will just pass the source along.
+
 ## Installation
 ### npm
 ```

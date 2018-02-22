@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-In your Typescript file you need to use back-ticks (`) to make this loader convert the markup:
+In your Typescript file you need to use back-ticks (`) surrounding the template, to make this loader convert the markup:
 
 ```javascript
 import { app } from './app.module';

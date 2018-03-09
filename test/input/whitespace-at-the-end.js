@@ -6,9 +6,9 @@ function Component(moduleOrName, selector, options) {
 const app = {}
 
 Component(app, selector, {
-    template: `
-        .top-div-with-class
+    template:
+        `.top-div-with-class
             .sub-div
                 p Paragraph with text
-`
+                `
 })

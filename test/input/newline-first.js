@@ -7,8 +7,8 @@ const app = {}
 
 Component(app, selector, {
     template: `
-        .top-div-with-class
-            .sub-div
-                p Paragraph with text
-    `
+.top-div-with-class
+    .sub-div
+        p Paragraph with text
+`
 })

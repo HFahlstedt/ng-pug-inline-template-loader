@@ -1,12 +1,13 @@
-
 function Component(moduleOrName, selector, options) {
     return {};
 }
 
+function pug(strings) {}
+
 const app = {}
 
 Component(app, selector, {
-    template: `
+    template: pug`
     .drop-shadow.monitor-component
         h3.overview-header.clearfix
             span.pull-left Project management and monitoring

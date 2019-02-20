@@ -4,7 +4,7 @@
   "description": "Webpack loader that transform angular inline templates from pug into html ",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --testEnvironment=\"node\""
   },
   "repository": {
     "type": "git",
